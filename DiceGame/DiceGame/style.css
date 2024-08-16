@@ -1,0 +1,104 @@
+@font-face {
+    font-family: font1;
+    src: url(assets/Sono-VariableFont_MONO\,wght.ttf);
+}
+html, body {
+    margin: 0rem;
+    font-family: font1;
+}
+
+.viewport {
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+
+}
+
+.content-container {
+    height: 100vh;
+    width: 70%;
+
+    margin: 0 auto 0 auto;
+}
+
+.cell-0 {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-1 {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell-2 {
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.player-text {
+    margin: 0 auto 0 auto;
+    font-size: 32px;
+}
+
+.text-container{
+    height: 10%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-container {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto 0 auto;
+
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+.btn-container {
+    height: 100px;
+    width: 200px;
+
+}
+
+#btn {
+    height: 100%;
+    width: 100%;
+
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+#btn p {
+    font-size: 24px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
